@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-image: url(Images/img1.jpg);
+    height: 70vh;
+    position: relative;
+}
+
+body {
+    background-color: black;
+}
+
+.main .box {
+    width: 100%;
+    height: 70vh;
+    background-color: black;
+    opacity: 0.44;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    max-width: 60vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+}
+
+nav img {
+    color: red;
+    width: 115px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    position: relative;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 65px);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.hero> :nth-child(1) {
+    font-size: 48px;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-size: 48px;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.hero> :nth-child(4) {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.separation {
+    height: 5px;
+    background-color: rgb(71, 69, 69);
+}
+
+.btn {
+    padding: 5px 25px 4px 13px;
+    background-color: rgba(29, 29, 29, 0.082);
+    color: white;
+    border-radius: 4px;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 5px 15px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.main input {
+    padding: 7px 100px 10px 15px;
+    color: white;
+    font-size: 12px;
+    border-radius: 5px;
+    background-color: rgba(23, 23, 23, 0.2);
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    max-width: 70vw;
+    color: white;
+    align-items: center;
+}
+
+.secImg {
+    position: relative;
+}
+
+.secImg img {
+    width: 30vw;
+    margin-top: 70px;
+    position: relative;
+    z-index: 10;
+}
+
+.secImg video {
+    position: absolute;
+    top: 139px;
+    right: 0;
+    width: 436px;
+    height: 176px;
+}
+
+.first h1 {
+    font-size: 48px;
+}
+
+.first h2 {
+    margin-top: 15px;
+}
+
+.faq {
+    color: white;
+    padding: 34px;
+}
+
+.faq h1 {
+    text-align: center;
+    font-size: 48px;
+}
+
+.faqbox:hover {
+    background-color: gray;
+}
+
+.faqbox {
+    display: flex;
+    background-color: rgb(57, 56, 56);
+    padding: 25px;
+    color: white;
+    justify-content: space-between;
+    max-width: 70vw;
+    margin: 10px auto;
+    font-size: larger;
+    cursor: pointer;
+}
+
+.endbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 30px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.endbuttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.endbuttons input {
+    background-color: rgba(43, 139, 51, 0);
+    border-radius: 5px;
+    padding: 10px;
+    width: 250px;
+    color: white;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+footer span {
+    color: rgb(130, 126, 126);
+    margin: 150px;
+    font-size: 20px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 30px;
+    margin-left: 150px;
+
+}
+
+.footer-items {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* unvisited link */
+a:link {
+    color: rgb(130, 126, 126);
+}
+
+/* visited link */
+a:visited {
+    color: rgb(130, 126, 126);
+}
+
+/* mouse over link */
+a:hover {
+    color: rgb(130, 126, 126);
+}
+
+/* selected link */
+a:active {
+    color: rgb(130, 126, 126);
+}
